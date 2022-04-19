@@ -1,0 +1,7 @@
+**/.coverage
+**/__pycache__
+**/.pytest_cache
+**/.test.lock
+**/.idea
+**/.vscode
+**/.DS_Store
