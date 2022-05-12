@@ -18,7 +18,7 @@ For TLS, sample code and instructions make use of [cert-manager](https://cert-ma
 For requirements, jump to the [section below](#requirements).
 
 ```shell
-EXPORT PROJECT=YOUR_PROJECT_ID
+export PROJECT=YOUR_PROJECT_ID
 
 # Deploy a sample GKE cluster
 gcloud beta container clusters create gke-dns-test \
