@@ -5,7 +5,7 @@ The sample webhook is used to automatically add to pods and deployments an Nginx
 To build and push the Docker image
 
 ```shell
-EXPORT DOCKER_REPO=MY_DOCKER_REPO
+export DOCKER_REPO=MY_DOCKER_REPO
 
 docker build -t ${DOCKER_REPO}/gke-dns-test .
 docker push ${DOCKER_REPO}/gke-dns-test
