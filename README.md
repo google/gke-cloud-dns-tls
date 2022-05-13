@@ -20,6 +20,10 @@ For requirements, jump to the [section below](#requirements).
 ```shell
 export PROJECT=YOUR_PROJECT_ID
 
+# Enable APIs
+gcloud services enable container.googleapis.com
+gcloud services enable dns.googleapis.com
+
 # Deploy a sample GKE cluster
 gcloud beta container clusters create gke-dns-test \
   --cluster-dns clouddns \
