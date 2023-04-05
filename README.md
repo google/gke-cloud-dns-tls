@@ -10,7 +10,7 @@ For TLS, sample code and instructions make use of [cert-manager](https://cert-ma
 * Install [cert-manager](https://cert-manager.io)
 * Configure [cert-manager](https://cert-manager.io) with a [self-signed CA](https://cert-manager.io/docs/configuration/selfsigned/) and a [ClusterIssuer](https://cert-manager.io/docs/concepts/issuer/)
 * Request a [self-signed certificate](https://cert-manager.io/docs/configuration/selfsigned/) for a sample application from the CA just created
-* Build and deploy a [custom mutating webhook](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/#mutatingadmissionwebhook) to automatically expose TLS certificates thorugh an [Nginx sidecar container](https://www.nginx.com/)
+* Build and deploy a [custom mutating webhook](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/#mutatingadmissionwebhook) to automatically expose TLS certificates through an [Nginx sidecar container](https://www.nginx.com/)
 * Deploy a sample application ([app1](app1.yaml)) to demonstrate the functionality
 
 ## Quick HowTo
